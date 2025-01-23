@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in Kotlin when working with mutable lists and the remove() and removeAt() functions. The example shows how index shifting after a removal operation can lead to unexpected list modifications and potential off-by-one errors. The solution provides a safer way to handle element removal.
